@@ -10,4 +10,8 @@ print(20 not in  lst)#False
 for item in lst:
     print(item)
 
+for index in range(0, len(item)):
+    print(item[index], end='\t')
 
+for index, value in enumerate(item):
+    print('index = %d values = %d' % (index, value))

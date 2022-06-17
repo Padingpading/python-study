@@ -15,3 +15,7 @@ print("值",name)
 age = "13"
 age = "14"
 print("年龄",age)
+
+#  多个变量赋值
+a = b = c = 1
+a, b, c = 1,2,"Python"

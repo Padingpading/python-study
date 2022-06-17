@@ -28,7 +28,6 @@ print(list1.index(9))
 #从index 0--3位置查找'pad',查找不到,抛出异常
 print(list1.index("pad",0,3))
 
-
 #列表的切片
 
 
