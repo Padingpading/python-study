@@ -6,7 +6,6 @@ print(type(keys))#<class 'dict_keys'>
 #所有key转为list
 print(list(keys))#['张三', '李四']
 
-
 #获取所有的value
 values =  scores.values();
 print(values)#dict_values([100, '98'])

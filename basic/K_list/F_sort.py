@@ -22,4 +22,3 @@ print("原列表",lst)#原列表 [20, 90, 40, 50, 60]
 new_list = sorted(lst)
 print("新列表",new_list)#新列表 [20, 40, 50, 60, 90]
 
-

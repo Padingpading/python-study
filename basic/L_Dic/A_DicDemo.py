@@ -17,3 +17,4 @@ print(student)
 #空数组
 d={}
 print(d)#{'name': 'jacl', 'age': 20}
+
