@@ -1,14 +1,20 @@
-# 1.__contains__方法
-my_list = ['apple', 'banana', 'cherry']
-print(my_list.__contains__('apple'))
+# 初始化一个空列表
+my_list = []
 
-#2.表达式 in
-exist  = 'cherry' in my_list;
-print(exist)
+# 检查列表是否为空
+# 由于my_list是空的，所以条件不满足，执行else分支
+if my_list:
+    print("列表不为空")  # 这行代码不会执行
+else:
+    print("列表为空")  # 这行代码会执行，输出“列表为空”
 
-#3.循环遍历判断
-for i in my_list:
-    if i == 'cherry':
-        print('存在')
-        break
+# 填充列表后再次检查
+# 向my_list中添加元素1, 2, 3
+my_list = [1, 2, 3]
 
+# 再次检查列表是否为空
+# 由于my_list现在不是空的，所以条件满足，执行if分支
+if my_list:
+    print("列表不为空")  # 这行代码会执行，输出“列表不为空”
+else:
+    print("列表为空")  # 这行代码不会执行
