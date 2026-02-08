@@ -7,7 +7,7 @@
 #2、索引映射唯一的数据。
 #3、列表可以存储重复数据。
 #4、任意类型的数据混存。
-#5、根据需要冬天分配和回收内存。
+#5、根据需要动态分配和回收内存。
 list = ['hello','world',98]
 print(id(list))#31949832
 print(type(list))#<class 'list'>
@@ -28,6 +28,5 @@ print(list1.index(9))
 #从index 0--3位置查找'pad',查找不到,抛出异常
 print(list1.index("pad",0,3))
 
-#列表的切片
 
 
