@@ -22,7 +22,6 @@ sum  = 0
 while a<=100:
    if a%2:
       sum+=a
-
    a+=1
 print(sum)
 
@@ -32,8 +31,9 @@ sum  = 0
 while a<=100:
    if not a%2:
       sum+=a
+a += 1
 
-   a+=1
+b =3;
 print(sum)
 
 
