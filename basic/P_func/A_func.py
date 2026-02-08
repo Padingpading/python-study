@@ -4,7 +4,6 @@
 #  def  函數 函數名([輸入參數]):
             #函数提
             #[return xxx]
-
 #demo1
 def calc(a,b):
     c= a+b
