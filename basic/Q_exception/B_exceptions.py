@@ -10,6 +10,3 @@
 # map = {"a":2}
 # print(map.pop("b"))#KeyError: 'b'
 
-#
-
-
