@@ -18,4 +18,7 @@ print(math.ceil(9.5))#10
 import Z_Mondule as module
 print(module.add(1,2))#3
 
+import os
+print(os.getcwd());
+
 
