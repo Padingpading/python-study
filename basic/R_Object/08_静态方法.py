@@ -36,3 +36,4 @@ id_mark = Person.mark_idcard("142322199401163037")
 print(id_mark)
 
 #注意点,通过实例也能调用静态方法。
+
