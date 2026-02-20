@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd717d24-0b98-4dbf-a9d2-da7fa4a78add" name="更改" comment="提交11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/R_Object/09_继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/R_Object/10_继承.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,71 +41,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.02_创建实例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_自定义方法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_实例属性.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_类属性.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_类方法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_静态方法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_方法重写.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_继承.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11_多重继承.executor&quot;: &quot;Run&quot;,
-    &quot;Python.123.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Add.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bool_Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.IdentifierDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Interger_Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Print.executor&quot;: &quot;Run&quot;,
-    &quot;Python.String_Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.String_Index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.String_Slice (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.String_Split.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a_define.executor&quot;: &quot;Run&quot;,
-    &quot;Python.arithmetic_oper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.b_type.executor&quot;: &quot;Run&quot;,
-    &quot;Python.builtins.executor&quot;: &quot;Run&quot;,
-    &quot;Python.c_address.executor&quot;: &quot;Run&quot;,
-    &quot;Python.continue.executor&quot;: &quot;Run&quot;,
-    &quot;Python.d_del_keyword.executor&quot;: &quot;Run&quot;,
-    &quot;Python.e_Immutable_.executor&quot;: &quot;Run&quot;,
-    &quot;Python.else.executor&quot;: &quot;Run&quot;,
-    &quot;Python.equal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.float_Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.is_instance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.is_subclass.executor&quot;: &quot;Run&quot;,
-    &quot;Python.isinstance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.translate.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/python-study/basic/R_Object&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.43843496&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.02_创建实例.executor": "Run",
+    "Python.03_自定义方法.executor": "Run",
+    "Python.04_实例属性.executor": "Run",
+    "Python.05_类属性.executor": "Run",
+    "Python.07_类方法.executor": "Run",
+    "Python.08_静态方法.executor": "Run",
+    "Python.09_方法重写.executor": "Run",
+    "Python.09_继承.executor": "Run",
+    "Python.11_多重继承.executor": "Run",
+    "Python.123.executor": "Run",
+    "Python.13_三种权限.executor": "Run",
+    "Python.Add.executor": "Run",
+    "Python.Bool_Demo.executor": "Run",
+    "Python.IdentifierDemo.executor": "Run",
+    "Python.Interger_Demo.executor": "Run",
+    "Python.Print.executor": "Run",
+    "Python.String_Demo.executor": "Run",
+    "Python.String_Index.executor": "Run",
+    "Python.String_Slice (1).executor": "Run",
+    "Python.String_Split.executor": "Run",
+    "Python.a_define.executor": "Run",
+    "Python.arithmetic_oper.executor": "Run",
+    "Python.b_type.executor": "Run",
+    "Python.builtins.executor": "Run",
+    "Python.c_address.executor": "Run",
+    "Python.continue.executor": "Run",
+    "Python.d_del_keyword.executor": "Run",
+    "Python.e_Immutable_.executor": "Run",
+    "Python.else.executor": "Run",
+    "Python.equal.executor": "Run",
+    "Python.float_Demo.executor": "Run",
+    "Python.for.executor": "Run",
+    "Python.is_instance.executor": "Run",
+    "Python.is_subclass.executor": "Run",
+    "Python.isinstance.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.translate.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/code/python-study/basic/R_Object",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.43843496",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -122,7 +122,7 @@
       <recent name="D:\wanma\python-study\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11_多重继承">
+  <component name="RunManager" selected="Python.13_三种权限">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="python-study" />
       <option name="ENV_FILES" value="" />
@@ -169,30 +169,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/R_Object" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="D:\code\python-study\basic\R_Object\10_继承.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="11_多重继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -209,6 +185,30 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/R_Object/11_多重继承.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="13_三种权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/R_Object" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/R_Object/13_三种权限.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.13_三种权限" />
         <item itemvalue="Python.11_多重继承" />
         <item itemvalue="Python.is_subclass" />
         <item itemvalue="Python.is_instance" />
         <item itemvalue="Python.09_方法重写" />
-        <item itemvalue="Python.10_继承" />
       </list>
     </recent_temporary>
   </component>
@@ -462,6 +462,7 @@
       <workItem from="1770513309697" duration="3800000" />
       <workItem from="1771294276106" duration="6590000" />
       <workItem from="1771382377669" duration="4021000" />
+      <workItem from="1771549576886" duration="963000" />
     </task>
     <task id="LOCAL-00001" summary="提交。">
       <option name="closed" value="true" />
@@ -559,7 +560,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771385438223</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="提交11">
+      <option name="closed" value="true" />
+      <created>1771549585797</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771549585797</updated>
+    </task>
+    <task id="LOCAL-00014" summary="提交11">
+      <option name="closed" value="true" />
+      <created>1771549592322</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771549592322</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,6 +618,7 @@
     <SUITE FILE_PATH="coverage/python_study$builtins.coverage" NAME="builtins Coverage Results" MODIFIED="1767786110422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/JetBrains/PyCharm2025.3/python_stubs/182113560" />
     <SUITE FILE_PATH="coverage/python_study$for.coverage" NAME="for Coverage Results" MODIFIED="1770515165903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/J_Flow" />
     <SUITE FILE_PATH="coverage/python_study$Bool_Demo.coverage" NAME="Bool_Demo Coverage Results" MODIFIED="1770358325691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/E_variable_type" />
+    <SUITE FILE_PATH="coverage/python_study$13_.coverage" NAME="13_三种权限 Coverage Results" MODIFIED="1771550445891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/R_Object" />
     <SUITE FILE_PATH="coverage/python_study$c_address.coverage" NAME="c_address Coverage Results" MODIFIED="1770357997524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/D_variable" />
     <SUITE FILE_PATH="coverage/python_study$07_.coverage" NAME="07_类方法 Coverage Results" MODIFIED="1771300379157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/R_Object" />
     <SUITE FILE_PATH="coverage/python_study$translate.coverage" NAME="translate Coverage Results" MODIFIED="1767784688008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/B_translate" />
