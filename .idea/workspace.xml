@@ -48,6 +48,7 @@
     "Python.02_函数的多返回只_参数的打包盒解包.executor": "Run",
     "Python.02_创建实例.executor": "Run",
     "Python.03_自定义方法.executor": "Run",
+    "Python.04_匿名函数.executor": "Run",
     "Python.04_实例属性.executor": "Run",
     "Python.04_条件表达式.executor": "Run",
     "Python.05_类属性.executor": "Run",
@@ -55,6 +56,7 @@
     "Python.08_静态方法.executor": "Run",
     "Python.09_方法重写.executor": "Run",
     "Python.09_继承.executor": "Run",
+    "Python.10_列表推导式.executor": "Run",
     "Python.11_多重继承.executor": "Run",
     "Python.123.executor": "Run",
     "Python.13_三种权限.executor": "Run",
@@ -132,7 +134,7 @@
       <recent name="D:\wanma\python-study\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.04_条件表达式">
+  <component name="RunManager" selected="Python.10_列表推导式">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="python-study" />
       <option name="ENV_FILES" value="" />
@@ -227,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="18_鸭子多态" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_匿名函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,13 +238,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/R_Object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/P_func" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/R_Object/18_鸭子多态.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/P_func/04_匿名函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19_抽象类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_列表推导式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,13 +262,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/R_Object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/P_func" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/R_Object/19_抽象类.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/P_func/10_列表推导式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -432,11 +434,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10_列表推导式" />
+        <item itemvalue="Python.04_匿名函数" />
         <item itemvalue="Python.04_条件表达式" />
         <item itemvalue="Python.02_函数的多返回只_参数的打包盒解包" />
         <item itemvalue="Python.01_重新认识函数" />
-        <item itemvalue="Python.19_抽象类" />
-        <item itemvalue="Python.18_鸭子多态" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +474,7 @@
       <workItem from="1770513309697" duration="3800000" />
       <workItem from="1771294276106" duration="6590000" />
       <workItem from="1771382377669" duration="4021000" />
-      <workItem from="1771549576886" duration="8842000" />
+      <workItem from="1771549576886" duration="13804000" />
     </task>
     <task id="LOCAL-00001" summary="提交。">
       <option name="closed" value="true" />
@@ -642,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771556345356</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="提交11">
+      <option name="closed" value="true" />
+      <created>1771558461434</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1771558461434</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,12 +686,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_study$04_.coverage" NAME="04_条件表达式 Coverage Results" MODIFIED="1771558356365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/P_func" />
+    <SUITE FILE_PATH="coverage/python_study$04_.coverage" NAME="04_匿名函数 Coverage Results" MODIFIED="1771559267469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/P_func" />
     <SUITE FILE_PATH="coverage/python_study$17_.coverage" NAME="17_标准多态 Coverage Results" MODIFIED="1771553686162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/R_Object" />
     <SUITE FILE_PATH="coverage/python_study$Interger_Demo.coverage" NAME="Interger_Demo Coverage Results" MODIFIED="1770358316896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/E_variable_type" />
     <SUITE FILE_PATH="coverage/python_study$15_.coverage" NAME="15_魔法方法 Coverage Results" MODIFIED="1771552796101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/R_Object" />
     <SUITE FILE_PATH="coverage/python_study$02_.coverage" NAME="02_创建实例 Coverage Results" MODIFIED="1771297431145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/R_Object" />
     <SUITE FILE_PATH="coverage/python_study$Print.coverage" NAME="Print Coverage Results" MODIFIED="1771294657974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/A_print" />
+    <SUITE FILE_PATH="coverage/python_study$10_.coverage" NAME="10_列表推导式 Coverage Results" MODIFIED="1771566299588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/P_func" />
     <SUITE FILE_PATH="coverage/python_study$Add.coverage" NAME="Add Coverage Results" MODIFIED="1767789060314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/I_operator/arithmetic" />
     <SUITE FILE_PATH="coverage/python_study$builtins.coverage" NAME="builtins Coverage Results" MODIFIED="1767786110422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/JetBrains/PyCharm2025.3/python_stubs/182113560" />
     <SUITE FILE_PATH="coverage/python_study$for.coverage" NAME="for Coverage Results" MODIFIED="1770515165903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/J_Flow" />
