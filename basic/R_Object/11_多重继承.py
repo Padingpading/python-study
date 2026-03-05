@@ -7,18 +7,23 @@ class Person:
         self.gender = gender
     def speak(self):
         print(f'我叫{self.name} 年龄{self.age} 性别{self.gender}')
-
+    def do_walk(self):
+        print(f'人类正在行走')
 
 class Worker:
     def __init__(self, company):
+        self.name = '工人'
         self.company = company
 
     def do_work(self):
         print(f'{self.company}正在工作')
+    def do_walk(self):
+        print(f'工人正在行走')
+
 
 #多继承
 class Student(Person, Worker):
-    def __init__(self, name, age, gender, company):
+    def __init__(self, name, age, gender,same, company):
         #1、使用super().__init__永远使用的是第一个继承类的构造方法
         # super().__init__(name, age, gender)
         # super().__init__(company) #TypeError: Person.__init__() missing 2 required positional arguments: 'age' and 'gender'
@@ -28,7 +33,7 @@ class Student(Person, Worker):
     def study(self):
         print(f'{self.name}正在学习')
 
-s1= Student('张三',18,'男','百度')
+s1= Student('张三',18,'男','same',"字节")
 print(s1.__dict__)
 
 #调用方法
@@ -36,6 +41,11 @@ s1.study()
 s1.speak()
 s1.do_work()
 
+# 多继承,父类包含相同方法,遵循
+# 继承的核心是复用父类代码和扩展子类功能，分为单继承和多继承；
+# 多继承调用同名方法遵循MRO（从左到右），子类重写方法会优先执行自身逻辑；
+# super()可在子类中调用父类方法，既保留父类逻辑又能扩展子类功能。
+s1.do_walk()
 
 
 
