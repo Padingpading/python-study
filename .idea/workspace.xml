@@ -59,6 +59,7 @@
     "Python.10_列表推导式.executor": "Run",
     "Python.11_多重继承.executor": "Run",
     "Python.123.executor": "Run",
+    "Python.12_浅拷贝和深拷贝.executor": "Run",
     "Python.13_三种权限.executor": "Run",
     "Python.14_gettter_setter.executor": "Run",
     "Python.15_object类.executor": "Run",
@@ -134,7 +135,7 @@
       <recent name="D:\wanma\python-study\basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10_列表推导式">
+  <component name="RunManager" selected="Python.12_浅拷贝和深拷贝">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="python-study" />
       <option name="ENV_FILES" value="" />
@@ -269,6 +270,30 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/P_func/10_列表推导式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12_浅拷贝和深拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/P_func" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/P_func/12_浅拷贝和深拷贝.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,8 +459,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12_浅拷贝和深拷贝" />
         <item itemvalue="Python.10_列表推导式" />
-        <item itemvalue="Python.04_匿名函数" />
         <item itemvalue="Python.04_条件表达式" />
         <item itemvalue="Python.02_函数的多返回只_参数的打包盒解包" />
         <item itemvalue="Python.01_重新认识函数" />
@@ -474,7 +499,8 @@
       <workItem from="1770513309697" duration="3800000" />
       <workItem from="1771294276106" duration="6590000" />
       <workItem from="1771382377669" duration="4021000" />
-      <workItem from="1771549576886" duration="13804000" />
+      <workItem from="1771549576886" duration="16027000" />
+      <workItem from="1773061379280" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="提交。">
       <option name="closed" value="true" />
@@ -652,7 +678,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771558461434</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="提交11">
+      <option name="closed" value="true" />
+      <created>1771567153402</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1771567153402</updated>
+    </task>
+    <task id="LOCAL-00024" summary="提交11">
+      <option name="closed" value="true" />
+      <created>1771567157512</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1771567157512</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
