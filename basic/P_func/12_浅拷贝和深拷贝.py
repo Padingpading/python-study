@@ -23,3 +23,11 @@ nums6 = copy.deepcopy(nums5)
 nums6[3][0] = 99
 print(nums5[3][0])
 print(nums6)
+
+#注意点
+#1.深拷贝支付值可变对象,不可变对象会直接引用
+#2.元祖中如果只包含不可变对象,则拷贝没有效果(元祖不可变)
+nums7 = (10,20,30)
+nums8 = copy.deepcopy(nums7)
+print(nums7)
+print(nums8)
