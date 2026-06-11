@@ -1,28 +1,26 @@
-#1.字符串拼接
-s1 = "Python"
-s2 = " 加法运算符"
-res = s1 + s2
-print(res)  # Python 加法运算符
+# 字典 报错
+# {"name":"Tom"} + {"age":18}
 
-#1.1禁止字符串 + 数字，类型不匹配直接报错
-#print("年龄：" + 18)  # 年龄：18
-# 报错：TypeError: can only concatenate str (not "int") to str
-# "年龄：" + 18
-print("年龄：" + str(18))  # 年龄：18
+# 集合 报错
+# {1,2} + {3,4}
 
-#1.2字符串是不可变对象：s1 + s2 会生成全新字符串，原字符串不变。
-s3 = "1"+"2"
-print(s3)
+# bytes 拼接仅同类型可用
+b1 = b"abc"
+b2 = b"123"
+print(b1 + b2)  # b'abc123'
 
-#1.3大量循环拼接字符串：禁止反复使用 +，性能极差。
-s = ""
-for i in range(1000):
-    s += str(i)
-#高效写法（推荐 str.join()）
-lst = [str(i) for i in range(1000)]
-s = "".join(lst)
-print(s)
-ssss = range(1000)
+# 其他方法 
+#1、字典拼接
+# 字典合并：Python3.5+ 使用 ** / |
+d1 = {"a":1}
+d2 = {"b":2}
+new_d = {**d1, **d2}
+print(new_d)  # {'a': 1, 'b': 2}
 
-#1.4 只能 列表 + 列表，不能和单个元素、字符串、元组相加：
+
+# 集合合并：使用 union() 或 |
+s1 = {1,2}
+s2 = {3,4}
+print(s1 | s2)        # {1,2,3,4}
+print(s1.union(s2))
 

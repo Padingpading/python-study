@@ -24,5 +24,11 @@ s = "".join(lst)
 print(s)
 ssss = range(1000)
 
+s = range(1000)
+print(s)
+ss = list(range(1000))
+print(ss)
+
+
 #1.4 只能 列表 + 列表，不能和单个元素、字符串、元组相加：
 
