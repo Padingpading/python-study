@@ -8,13 +8,15 @@
 #4、字典可以根据需要动态的伸缩。
 #字典的創建
 #花括号创建
+from typing import Any
+
+
 socres = {"张三":100,"李四":'98'}#{'张三': 100, '李四': '98'}
 print(socres)
-print(type(socres))
+print(type[str, Any](socres))
 #dict()创建
 student  = dict(name="jacl",age=20)#{'name': 'jacl', 'age': 20}
 print(student)
 #空数组
 d={}
 print(d)#{'name': 'jacl', 'age': 20}
-

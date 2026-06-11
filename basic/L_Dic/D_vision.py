@@ -1,3 +1,6 @@
+from typing import Any
+
+
 scores = {"张三":100,"李四":'98'}#{'张三': 100, '李四': '98'}
 #获取字典中所有的key
 keys = scores.keys();
@@ -15,7 +18,7 @@ print(list(values))#[100, '98']
 #获取所有的键值对
 items =  scores.items();
 print(items)#dict_items([('张三', 100), ('李四', '98')])
-print(type(items))#<class 'dict_items'>
+print(type[str, Any](items))#<class 'dict_items'>
 print(list(items))#[('张三', 100), ('李四', '98')]
 
 
