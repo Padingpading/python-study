@@ -35,3 +35,8 @@ print(lst2)#['a']
 lst3 = ['a','b']
 lst3.clear()
 print(lst3)#[]
+
+# 根据指定索引删除
+lst4 = ['a','b','e','f']
+del lst4[2]
+print(lst4)

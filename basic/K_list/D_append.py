@@ -21,7 +21,7 @@ print(lst2)#['a', 'b', 10, 20, 'python', 'hello', 100]
 
 lst3 = ['a','b']
 #insert:指定位置添加元素d
-lst3.insert(2,'lala')
+lst3.insert(1,'lala')
 print(lst3)#['a', 'b', 'lala']
 
 #切片
