@@ -1,4 +1,5 @@
 #定义一个person类(类名的通常使用:大驼峰写法)
+import json
 class Person:
     #说明:当一个函数被定义在了类中时,这个函数称之为方法
     #__init__:初始化方法,主要作用:给当前创建的实例对象添加属性。
@@ -10,3 +11,18 @@ class Person:
         self.age=age
         self.gender=gender
 
+class Anmial:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        pass
+#创建对象
+p1=Anmial('张三',18)
+# p1转字典
+print(json.dumps(p1.__dict__))
+p_str = json.dumps(p1.__dict__)
+#json转成字典
+p_dict = json.loads(p_str)
+# 字典转对象
+p2 = Anmial(**p_dict)
+print("---")
