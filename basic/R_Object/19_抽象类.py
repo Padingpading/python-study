@@ -1,5 +1,6 @@
 # 抽象类:是一种不能直接实例化的类,它通常作为规范,让子类继承,并实现其中的定义的抽象方法
 from abc import  ABC ,abstractmethod
+from re import A
 #MustRun一旦继承了ABC类,那么MustRun变成抽象类
 class MustRun(ABC):
     # 定义抽象方法
@@ -20,5 +21,8 @@ class Person (MustRun):
 # p1 = MustRun()
 #TypeError: Can't instantiate abstract class MustRun without an implementation for abstract method 'run'
 
+class Anumal(ABC):
+    def speak(self):
+        print('人可以说话')
 
 
