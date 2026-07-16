@@ -32,3 +32,4 @@ except ZeroDivisionError as e:
     print("打印"+err_msg)
 
 
+Thread
