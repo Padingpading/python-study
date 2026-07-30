@@ -13,6 +13,6 @@ def show_tip(tip: str = "操作成功") -> None:
 
 #复合类型入参（list / dict / tuple / set）
 # 列表、字典、元组、集合 入参注解
-def data_handle(nums: list[int], info: dict[str, str], pos: tuple[int,int], tags: set[str]) -> None:
+def data_handle(nums: list[int], info: dict[str, str], pos: tuple[int,str], tags: set[str]) -> None:
     print(nums, info, pos, tags)
-data_handle(nums=[1,2,3], info={"name":"张三"}, pos=(1,1), tags={"1","2","3"})
+data_handle(nums=[1,2,3], info={"name":"张三"}, pos=(1,"123"), tags={"1","2","3"})
