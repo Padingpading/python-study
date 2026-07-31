@@ -1,3 +1,6 @@
+from typing import Optional
+#任意类型入参（不确定参数类型）
+from typing import Any
 # 格式
 # def 函数名(参数1: 类型1, 参数2: 类型2 = 默认值) -> 返回值类型:
 #     函数逻辑
@@ -16,3 +19,25 @@ def show_tip(tip: str = "操作成功") -> None:
 def data_handle(nums: list[int], info: dict[str, str], pos: tuple[int,str], tags: set[str]) -> None:
     print(nums, info, pos, tags)
 data_handle(nums=[1,2,3], info={"name":"张三"}, pos=(1,"123"), tags={"1","2","3"})
+
+#可选入参（允许为 None） 带默认值。
+def login(token: str | None = None) -> None:
+    pass
+
+# 不定长位置参数：所有元素为浮点型
+def sum_total(*args: float) -> float:
+    return sum(args)
+
+# 不定长关键字参数：所有value为字符串
+def log_info(**kwargs: str) -> None:
+    print(kwargs)
+
+# 任意类型入参
+def universal_print(data: Any) -> None:
+    print(data)
+
+#
+# #Optional 解释
+# # 写法2：全版本兼容写法（通用）
+# def login(token: Optional[str] = None) -> None:
+#     pass
