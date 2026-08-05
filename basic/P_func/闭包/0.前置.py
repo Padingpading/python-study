@@ -11,7 +11,7 @@ outer()
 outer()
 
 #前置知识二：
-#1.在python中,内存函数可以方位其外层函数域中的变量
+#1.在python中,内存函数可以访问其外层函数域中的变量
 #2.访问外层函数变量无序使用nonlocal;但修改外层变量时要使用nonlocal
 def outer1():
     num = 10
