@@ -9,6 +9,5 @@ for item in tags.split(","):
     if item:          # 非空才要
         result.append(item)
 
-
 tag_list = [ item.strip()  for item in tags.split(",")  if item.strip() ];
 print(tag_list)
