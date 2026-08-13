@@ -49,11 +49,14 @@ def time_cost_with_tip(tip_msg: str):
             print(f"[{tip_msg}]开始执行")
             s = time.time()
             res = func(*args, **kwargs)
+            print(res)
+            time.sleep(2)
             e = time.time()
             print(f"[{tip_msg}]结束，耗时{e-s:.4f}")
             return res
         return wrapper
     return decorator
+
 # 使用：传入装饰器自身参数
 @time_cost_with_tip(tip_msg="幂运算任务")
 def calc(x, y):
